@@ -276,7 +276,7 @@ export default function Hero() {
               <Mail size={16} className="text-cyan-400 group-hover:scale-110 transition-transform" />
               <span>Gmail</span>
             </a>
-            <a href="tel:9481464605"
+            <a href={`tel:+${personalData.phone}`}
               className="flex items-center gap-2.5 px-4 py-2.5 rounded-full bg-white/[0.03] hover:bg-white/[0.08] border border-white/5 hover:border-pink-500/30 text-gray-300 hover:text-white transition-all duration-300 group text-xs md:text-sm font-medium">
               <Phone size={16} className="text-pink-400 group-hover:scale-110 transition-transform" />
               <span>Phone</span>

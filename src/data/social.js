@@ -16,7 +16,7 @@ export const socialData = [
   },
   {
     platform: "Phone",
-    url: "tel:9481464605",
+    url: "tel:+919481464605",
     iconName: "Phone"
   }
 ];
