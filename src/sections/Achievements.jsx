@@ -7,7 +7,7 @@ import LinkPreviewTooltip from '../components/ui/LinkPreviewTooltip';
 
 const ACHIEVEMENTS = [
   {
-    title: "AI & Computer Vision Specialist",
+    title: "Computer Vision & AI Analyst Intern",
     description: "Advanced Computer Vision and AI Data Analyst with a proven track record of processing 20,000+ vehicle image frames to train high-accuracy machine learning models.",
     icon: Brain,
     accent: "text-purple-400 bg-purple-500/10 border-purple-500/20",
