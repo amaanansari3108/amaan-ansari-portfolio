@@ -10,6 +10,6 @@ export const personalData = {
   phone: "9481464605",
   location: "Haliyal, Karnataka, India",
   about: "Electronics & Communication Engineering graduate specializing in Computer Vision, IoT, and AI Data Operations. Co-inventor of a published Indian Patent for an advanced thermoelectric cooling architecture, and experienced in managing end-to-end dataset pipelines of 20,000+ frames. Passionate about bridging hardware development with deep learning solutions.",
-  avatar: "/src/assets/avatar.png",
+  avatar: "/avatar.png",
   resumeUrl: "/Amaan_Ansari_Resume.pdf"
 };
