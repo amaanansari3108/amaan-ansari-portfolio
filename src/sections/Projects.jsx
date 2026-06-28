@@ -29,11 +29,11 @@ export default function Projects() {
               const cardContent = (
                 <GlassCard hoverEffect={true} className={`flex flex-col justify-between h-full relative overflow-hidden ${hasImg ? '!p-0' : ''}`}>
                   {hasImg && (
-                    <div className="w-full h-48 sm:h-52 md:h-56 overflow-hidden relative border-b border-white/5">
+                    <div className="w-full h-48 sm:h-52 md:h-56 overflow-hidden relative border-b border-white/5 bg-[#090d19]">
                       <img
                         src={project.image}
                         alt={project.title}
-                        className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                        className="w-full h-full object-contain transition-transform duration-500 hover:scale-[1.03]"
                         draggable={false}
                       />
                     </div>

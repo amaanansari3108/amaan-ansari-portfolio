@@ -2,7 +2,7 @@ export const projectsData = [
   {
     title: "Peltier-Based Non-Conductive Liquid Cooling System",
     description: "An advanced, high-efficiency thermoelectric liquid cooling prototype designed to keep electronic systems cool using Peltier modules and a custom non-conductive coolant.",
-    image: "/peltier.jpg",
+    image: "/thermal.jpg",
     tech: ["ESP8266", "IoT", "Peltier Module", "Sensors", "Hardware Design"],
     featured: true,
     category: "IoT",
@@ -22,7 +22,7 @@ export const projectsData = [
   {
     title: "Thermal Conductivity Measurement Device",
     description: "A highly cost-effective, precise testing device built to analyze and measure the thermal conductivity of various materials using digital sensors and wireless data logging.",
-    image: "/thermal.jpg",
+    image: "/peltier.jpg",
     tech: ["ESP8266", "Waterproof Temperature Sensors", "Embedded C", "Thermal Analysis"],
     featured: false,
     category: "IoT",
