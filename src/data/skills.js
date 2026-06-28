@@ -19,7 +19,7 @@ export const skillsData = [
       { name: "Agentic AI", level: 80 },
       { name: "Prompt Engineering", level: 78 },
       { name: "SQL", level: 72 },
-      { name: "Data Annotation & Validation", level: 88 }
+      { name: "Data Annotation", level: 88 }
     ]
   },
   {
