@@ -106,11 +106,13 @@ export default function Experience() {
                 {/* Bottom section with certificate */}
                 {exp.certificateUrl && (
                   <div className="mt-8 pt-6 border-t border-white/5 flex justify-end">
-                    <a href={exp.certificateUrl} target="_blank" rel="noopener noreferrer">
-                      <Button variant="secondary" className="text-xs py-2.5 md:text-sm">
-                        View Certificate <ArrowUpRight size={14} />
-                      </Button>
-                    </a>
+                    <LinkPreviewTooltip url={exp.certificateUrl}>
+                      <a href={exp.certificateUrl} target="_blank" rel="noopener noreferrer">
+                        <Button variant="secondary" className="text-xs py-2.5 md:text-sm">
+                          View Certificate <ArrowUpRight size={14} />
+                        </Button>
+                      </a>
+                    </LinkPreviewTooltip>
                   </div>
                 )}
               </GlassCard>
@@ -123,13 +125,7 @@ export default function Experience() {
                   <Briefcase size={12} className="text-indigo-400" />
                 </div>
 
-                {cardUrl ? (
-                  <LinkPreviewTooltip url={cardUrl} className="block w-full">
-                    {cardContent}
-                  </LinkPreviewTooltip>
-                ) : (
-                  cardContent
-                )}
+                {cardContent}
               </div>
             );
           })}

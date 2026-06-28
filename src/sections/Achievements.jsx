@@ -93,13 +93,7 @@ export default function Achievements() {
 
             return (
               <div key={idx} className="reveal-child h-full">
-                {ach.link ? (
-                  <LinkPreviewTooltip url={ach.link} className="h-full block">
-                    {cardContent}
-                  </LinkPreviewTooltip>
-                ) : (
-                  cardContent
-                )}
+                {cardContent}
               </div>
             );
           })}

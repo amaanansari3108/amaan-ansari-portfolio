@@ -57,13 +57,7 @@ export default function Certifications() {
 
             return (
               <div key={idx} className="reveal-child h-full">
-                {cert.link && cert.link !== '#' ? (
-                  <LinkPreviewTooltip url={cert.link} className="h-full block">
-                    {cardContent}
-                  </LinkPreviewTooltip>
-                ) : (
-                  cardContent
-                )}
+                {cardContent}
               </div>
             );
           })}

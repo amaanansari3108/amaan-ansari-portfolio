@@ -100,13 +100,7 @@ export default function Education() {
                   <GraduationCap size={12} className="text-indigo-400" />
                 </div>
 
-                {cardUrl ? (
-                  <LinkPreviewTooltip url={cardUrl} className="block w-full">
-                    {cardContent}
-                  </LinkPreviewTooltip>
-                ) : (
-                  cardContent
-                )}
+                {cardContent}
               </div>
             );
           })}
